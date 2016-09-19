@@ -1,0 +1,373 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'grunt-contrib-requirejs',
+1 verbose cli   '--save-dev' ]
+2 info using npm@2.15.9
+3 info using node@v4.5.0
+4 verbose install initial load of J:\XAMPP_2\htdocs\sandbox\magento\bgts_theme\package.json
+5 warn package.json bgts_theme@1.0.0 No repository field.
+6 warn package.json bgts_theme@1.0.0 No README data
+7 verbose installManyTop reading scoped package data from J:\XAMPP_2\htdocs\sandbox\magento\bgts_theme\node_modules\grunt\package.json
+8 verbose installManyTop reading scoped package data from J:\XAMPP_2\htdocs\sandbox\magento\bgts_theme\node_modules\grunt-contrib-requirejs\package.json
+9 verbose installManyTop reading scoped package data from J:\XAMPP_2\htdocs\sandbox\magento\bgts_theme\node_modules\grunt-contrib-uglify\package.json
+10 verbose installManyTop reading scoped package data from J:\XAMPP_2\htdocs\sandbox\magento\bgts_theme\node_modules\grunt-contrib-watch\package.json
+11 verbose installManyTop reading scoped package data from J:\XAMPP_2\htdocs\sandbox\magento\bgts_theme\node_modules\grunt-exec\package.json
+12 verbose installManyTop reading scoped package data from J:\XAMPP_2\htdocs\sandbox\magento\bgts_theme\node_modules\grunt-include-js\package.json
+13 verbose installManyTop reading scoped package data from J:\XAMPP_2\htdocs\sandbox\magento\bgts_theme\node_modules\grunt-sass\package.json
+14 info package.json grunt-include-js@1.0.3 No license field.
+15 verbose readDependencies loading dependencies from J:\XAMPP_2\htdocs\sandbox\magento\bgts_theme\package.json
+16 verbose install grunt-contrib-requirejs is installed as 1.0.0
+17 silly cache add args [ 'grunt-contrib-requirejs', null ]
+18 verbose cache add spec grunt-contrib-requirejs
+19 silly cache add parsed spec Result {
+19 silly cache add   raw: 'grunt-contrib-requirejs',
+19 silly cache add   scope: null,
+19 silly cache add   name: 'grunt-contrib-requirejs',
+19 silly cache add   rawSpec: '',
+19 silly cache add   spec: 'latest',
+19 silly cache add   type: 'tag' }
+20 silly addNamed grunt-contrib-requirejs@latest
+21 verbose addNamed "latest" is being treated as a dist-tag for grunt-contrib-requirejs
+22 info addNameTag [ 'grunt-contrib-requirejs', 'latest' ]
+23 silly mapToRegistry name grunt-contrib-requirejs
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'grunt-contrib-requirejs',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   name: 'grunt-contrib-requirejs',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-requirejs
+28 verbose addNameTag registry:https://registry.npmjs.org/grunt-contrib-requirejs not in flight; fetching
+29 verbose request uri https://registry.npmjs.org/grunt-contrib-requirejs
+30 verbose request no auth needed
+31 info attempt registry request try #1 at 8:02:09 PM
+32 verbose request id 400702cf0b319ed8
+33 verbose etag "ELEM3E5LHDGRE5Q7DB5Q0PZ2Y"
+34 http request GET https://registry.npmjs.org/grunt-contrib-requirejs
+35 http 304 https://registry.npmjs.org/grunt-contrib-requirejs
+36 verbose headers { date: 'Sat, 17 Sep 2016 12:02:08 GMT',
+36 verbose headers   via: '1.1 varnish',
+36 verbose headers   'cache-control': 'max-age=300',
+36 verbose headers   etag: '"ELEM3E5LHDGRE5Q7DB5Q0PZ2Y"',
+36 verbose headers   age: '0',
+36 verbose headers   connection: 'keep-alive',
+36 verbose headers   'x-served-by': 'cache-nrt6126-NRT',
+36 verbose headers   'x-cache': 'HIT',
+36 verbose headers   'x-cache-hits': '1',
+36 verbose headers   'x-timer': 'S1474113728.057691,VS0,VE184',
+36 verbose headers   vary: 'Accept-Encoding' }
+37 silly get cb [ 304,
+37 silly get   { date: 'Sat, 17 Sep 2016 12:02:08 GMT',
+37 silly get     via: '1.1 varnish',
+37 silly get     'cache-control': 'max-age=300',
+37 silly get     etag: '"ELEM3E5LHDGRE5Q7DB5Q0PZ2Y"',
+37 silly get     age: '0',
+37 silly get     connection: 'keep-alive',
+37 silly get     'x-served-by': 'cache-nrt6126-NRT',
+37 silly get     'x-cache': 'HIT',
+37 silly get     'x-cache-hits': '1',
+37 silly get     'x-timer': 'S1474113728.057691,VS0,VE184',
+37 silly get     vary: 'Accept-Encoding' } ]
+38 verbose etag https://registry.npmjs.org/grunt-contrib-requirejs from cache
+39 verbose get saving grunt-contrib-requirejs to C:\Users\Jaronloch\AppData\Roaming\npm-cache\registry.npmjs.org\grunt-contrib-requirejs\.cache.json
+40 verbose correctMkdir C:\Users\Jaronloch\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+41 silly addNameTag next cb for grunt-contrib-requirejs with tag latest
+42 silly addNamed grunt-contrib-requirejs@1.0.0
+43 verbose addNamed "1.0.0" is a plain semver version for grunt-contrib-requirejs
+44 silly cache afterAdd grunt-contrib-requirejs@1.0.0
+45 verbose afterAdd C:\Users\Jaronloch\AppData\Roaming\npm-cache\grunt-contrib-requirejs\1.0.0\package\package.json not in flight; writing
+46 verbose correctMkdir C:\Users\Jaronloch\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+47 verbose afterAdd C:\Users\Jaronloch\AppData\Roaming\npm-cache\grunt-contrib-requirejs\1.0.0\package\package.json written
+48 silly install resolved [ { name: 'grunt-contrib-requirejs',
+48 silly install resolved     description: 'Optimize RequireJS projects using r.js',
+48 silly install resolved     version: '1.0.0',
+48 silly install resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+48 silly install resolved     repository:
+48 silly install resolved      { type: 'git',
+48 silly install resolved        url: 'git+https://github.com/gruntjs/grunt-contrib-requirejs.git' },
+48 silly install resolved     license: 'MIT',
+48 silly install resolved     engines: { node: '>=0.10.0' },
+48 silly install resolved     main: 'tasks/requirejs.js',
+48 silly install resolved     scripts: { test: 'grunt test' },
+48 silly install resolved     dependencies: { requirejs: '^2.1.0' },
+48 silly install resolved     devDependencies:
+48 silly install resolved      { grunt: '^0.4.5',
+48 silly install resolved        'grunt-cli': '^0.1.13',
+48 silly install resolved        'grunt-contrib-clean': '^0.6.0',
+48 silly install resolved        'grunt-contrib-internal': '^0.4.7',
+48 silly install resolved        'grunt-contrib-jshint': '^0.11.0',
+48 silly install resolved        'grunt-contrib-nodeunit': '^0.4.0' },
+48 silly install resolved     keywords: [ 'gruntplugin' ],
+48 silly install resolved     files: [ 'tasks' ],
+48 silly install resolved     contributors: [ [Object], [Object], [Object] ],
+48 silly install resolved     gitHead: 'fc86d8581b1546030a732b9416add6eacee95c71',
+48 silly install resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-requirejs/issues' },
+48 silly install resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-requirejs#readme',
+48 silly install resolved     _id: 'grunt-contrib-requirejs@1.0.0',
+48 silly install resolved     _shasum: 'ec1670cafc32713902ee53569454715b2e3cbad5',
+48 silly install resolved     _from: 'grunt-contrib-requirejs@latest',
+48 silly install resolved     _npmVersion: '3.6.0',
+48 silly install resolved     _nodeVersion: '5.7.1',
+48 silly install resolved     _npmUser: { name: 'vladikoff', email: 'vlad@vladikoff.com' },
+48 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+48 silly install resolved     dist:
+48 silly install resolved      { shasum: 'ec1670cafc32713902ee53569454715b2e3cbad5',
+48 silly install resolved        tarball: 'https://registry.npmjs.org/grunt-contrib-requirejs/-/grunt-contrib-requirejs-1.0.0.tgz' },
+48 silly install resolved     _npmOperationalInternal:
+48 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+48 silly install resolved        tmp: 'tmp/grunt-contrib-requirejs-1.0.0.tgz_1457126050624_0.6490512760356069' },
+48 silly install resolved     directories: {},
+48 silly install resolved     _resolved: 'https://registry.npmjs.org/grunt-contrib-requirejs/-/grunt-contrib-requirejs-1.0.0.tgz',
+48 silly install resolved     readme: 'ERROR: No README data found!' } ]
+49 info install grunt-contrib-requirejs@1.0.0 into J:\XAMPP_2\htdocs\sandbox\magento\bgts_theme
+50 info installOne grunt-contrib-requirejs@1.0.0
+51 verbose installOne of grunt-contrib-requirejs to J:\XAMPP_2\htdocs\sandbox\magento\bgts_theme not in flight; installing
+52 verbose correctMkdir C:\Users\Jaronloch\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+53 verbose lock using C:\Users\Jaronloch\AppData\Roaming\npm-cache\_locks\grunt-contrib-requirejs-42b88262c57bcd4f.lock for J:\XAMPP_2\htdocs\sandbox\magento\bgts_theme\node_modules\grunt-contrib-requirejs
+54 silly install write writing grunt-contrib-requirejs 1.0.0 to J:\XAMPP_2\htdocs\sandbox\magento\bgts_theme\node_modules\grunt-contrib-requirejs
+55 verbose unbuild node_modules\grunt-contrib-requirejs
+56 info preuninstall grunt-contrib-requirejs@1.0.0
+57 info uninstall grunt-contrib-requirejs@1.0.0
+58 verbose unbuild rmStuff grunt-contrib-requirejs@1.0.0 from J:\XAMPP_2\htdocs\sandbox\magento\bgts_theme\node_modules
+59 info postuninstall grunt-contrib-requirejs@1.0.0
+60 silly gentlyRm J:\XAMPP_2\htdocs\sandbox\magento\bgts_theme\node_modules\grunt-contrib-requirejs is being purged from base J:\XAMPP_2\htdocs\sandbox\magento\bgts_theme
+61 verbose gentlyRm don't care about contents; nuking J:\XAMPP_2\htdocs\sandbox\magento\bgts_theme\node_modules\grunt-contrib-requirejs
+62 silly vacuum-fs purging J:\XAMPP_2\htdocs\sandbox\magento\bgts_theme\node_modules\grunt-contrib-requirejs
+63 silly vacuum-fs quitting because other entries in J:\XAMPP_2\htdocs\sandbox\magento\bgts_theme\node_modules
+64 verbose tar unpack C:\Users\Jaronloch\AppData\Roaming\npm-cache\grunt-contrib-requirejs\1.0.0\package.tgz
+65 verbose tar unpacking to J:\XAMPP_2\htdocs\sandbox\magento\bgts_theme\node_modules\grunt-contrib-requirejs
+66 silly gentlyRm J:\XAMPP_2\htdocs\sandbox\magento\bgts_theme\node_modules\grunt-contrib-requirejs is being purged
+67 verbose gentlyRm don't care about contents; nuking J:\XAMPP_2\htdocs\sandbox\magento\bgts_theme\node_modules\grunt-contrib-requirejs
+68 silly gunzTarPerm modes [ '777', '666' ]
+69 silly gunzTarPerm extractEntry package.json
+70 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+71 silly gunzTarPerm extractEntry README.md
+72 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+73 silly gunzTarPerm extractEntry CHANGELOG
+74 silly gunzTarPerm modified mode [ 'CHANGELOG', 420, 438 ]
+75 silly gunzTarPerm extractEntry tasks/requirejs.js
+76 silly gunzTarPerm modified mode [ 'tasks/requirejs.js', 420, 438 ]
+77 verbose write writing to J:\XAMPP_2\htdocs\sandbox\magento\bgts_theme\node_modules\grunt-contrib-requirejs\package.json
+78 info preinstall grunt-contrib-requirejs@1.0.0
+79 verbose readDependencies loading dependencies from J:\XAMPP_2\htdocs\sandbox\magento\bgts_theme\node_modules\grunt-contrib-requirejs\package.json
+80 silly prepareForInstallMany adding requirejs@^2.1.0 from grunt-contrib-requirejs dependencies
+81 verbose readDependencies loading dependencies from J:\XAMPP_2\htdocs\sandbox\magento\bgts_theme\node_modules\grunt-contrib-requirejs\package.json
+82 silly cache add args [ 'requirejs@^2.1.0', null ]
+83 verbose cache add spec requirejs@^2.1.0
+84 silly cache add parsed spec Result {
+84 silly cache add   raw: 'requirejs@^2.1.0',
+84 silly cache add   scope: null,
+84 silly cache add   name: 'requirejs',
+84 silly cache add   rawSpec: '^2.1.0',
+84 silly cache add   spec: '>=2.1.0 <3.0.0',
+84 silly cache add   type: 'range' }
+85 silly addNamed requirejs@>=2.1.0 <3.0.0
+86 verbose addNamed ">=2.1.0 <3.0.0" is a valid semver range for requirejs
+87 silly addNameRange { name: 'requirejs', range: '>=2.1.0 <3.0.0', hasData: false }
+88 silly mapToRegistry name requirejs
+89 silly mapToRegistry using default registry
+90 silly mapToRegistry registry https://registry.npmjs.org/
+91 silly mapToRegistry data Result {
+91 silly mapToRegistry   raw: 'requirejs',
+91 silly mapToRegistry   scope: null,
+91 silly mapToRegistry   name: 'requirejs',
+91 silly mapToRegistry   rawSpec: '',
+91 silly mapToRegistry   spec: 'latest',
+91 silly mapToRegistry   type: 'tag' }
+92 silly mapToRegistry uri https://registry.npmjs.org/requirejs
+93 verbose addNameRange registry:https://registry.npmjs.org/requirejs not in flight; fetching
+94 verbose request uri https://registry.npmjs.org/requirejs
+95 verbose request no auth needed
+96 info attempt registry request try #1 at 8:02:11 PM
+97 verbose etag "5AMHL0FP0W8161PF0HRLAZAOI"
+98 http request GET https://registry.npmjs.org/requirejs
+99 http 304 https://registry.npmjs.org/requirejs
+100 verbose headers { date: 'Sat, 17 Sep 2016 12:02:08 GMT',
+100 verbose headers   via: '1.1 varnish',
+100 verbose headers   'cache-control': 'max-age=300',
+100 verbose headers   etag: '"5AMHL0FP0W8161PF0HRLAZAOI"',
+100 verbose headers   age: '94',
+100 verbose headers   connection: 'keep-alive',
+100 verbose headers   'x-served-by': 'cache-nrt6126-NRT',
+100 verbose headers   'x-cache': 'HIT',
+100 verbose headers   'x-cache-hits': '1',
+100 verbose headers   'x-timer': 'S1474113728.872451,VS0,VE0',
+100 verbose headers   vary: 'Accept-Encoding' }
+101 silly get cb [ 304,
+101 silly get   { date: 'Sat, 17 Sep 2016 12:02:08 GMT',
+101 silly get     via: '1.1 varnish',
+101 silly get     'cache-control': 'max-age=300',
+101 silly get     etag: '"5AMHL0FP0W8161PF0HRLAZAOI"',
+101 silly get     age: '94',
+101 silly get     connection: 'keep-alive',
+101 silly get     'x-served-by': 'cache-nrt6126-NRT',
+101 silly get     'x-cache': 'HIT',
+101 silly get     'x-cache-hits': '1',
+101 silly get     'x-timer': 'S1474113728.872451,VS0,VE0',
+101 silly get     vary: 'Accept-Encoding' } ]
+102 verbose etag https://registry.npmjs.org/requirejs from cache
+103 verbose get saving requirejs to C:\Users\Jaronloch\AppData\Roaming\npm-cache\registry.npmjs.org\requirejs\.cache.json
+104 verbose correctMkdir C:\Users\Jaronloch\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+105 silly addNameRange number 2 { name: 'requirejs', range: '>=2.1.0 <3.0.0', hasData: true }
+106 silly addNameRange versions [ 'requirejs',
+106 silly addNameRange   [ '0.26.0',
+106 silly addNameRange     '0.27.0',
+106 silly addNameRange     '0.27.1',
+106 silly addNameRange     '1.0.0',
+106 silly addNameRange     '1.0.1',
+106 silly addNameRange     '1.0.2',
+106 silly addNameRange     '1.0.3',
+106 silly addNameRange     '1.0.4',
+106 silly addNameRange     '1.0.5',
+106 silly addNameRange     '1.0.6',
+106 silly addNameRange     '1.0.7',
+106 silly addNameRange     '1.0.8',
+106 silly addNameRange     '2.0.0',
+106 silly addNameRange     '2.0.1',
+106 silly addNameRange     '2.0.2',
+106 silly addNameRange     '2.0.3',
+106 silly addNameRange     '2.0.4',
+106 silly addNameRange     '2.0.5',
+106 silly addNameRange     '2.0.6',
+106 silly addNameRange     '2.1.0',
+106 silly addNameRange     '2.1.1',
+106 silly addNameRange     '2.1.2',
+106 silly addNameRange     '2.1.3',
+106 silly addNameRange     '2.1.4',
+106 silly addNameRange     '2.1.5',
+106 silly addNameRange     '2.1.6',
+106 silly addNameRange     '2.1.7',
+106 silly addNameRange     '2.1.8',
+106 silly addNameRange     '2.1.9',
+106 silly addNameRange     '2.1.10',
+106 silly addNameRange     '2.1.11',
+106 silly addNameRange     '2.1.12',
+106 silly addNameRange     '2.1.13',
+106 silly addNameRange     '2.1.14',
+106 silly addNameRange     '2.1.15',
+106 silly addNameRange     '2.1.16',
+106 silly addNameRange     '2.1.17',
+106 silly addNameRange     '2.1.18',
+106 silly addNameRange     '2.1.19',
+106 silly addNameRange     '2.1.20',
+106 silly addNameRange     '2.1.21',
+106 silly addNameRange     '2.1.22',
+106 silly addNameRange     '2.2.0',
+106 silly addNameRange     '2.3.0',
+106 silly addNameRange     '2.3.1' ] ]
+107 silly addNamed requirejs@2.3.1
+108 verbose addNamed "2.3.1" is a plain semver version for requirejs
+109 silly cache afterAdd requirejs@2.3.1
+110 verbose afterAdd C:\Users\Jaronloch\AppData\Roaming\npm-cache\requirejs\2.3.1\package\package.json not in flight; writing
+111 verbose correctMkdir C:\Users\Jaronloch\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+112 verbose afterAdd C:\Users\Jaronloch\AppData\Roaming\npm-cache\requirejs\2.3.1\package\package.json written
+113 silly install resolved [ { name: 'requirejs',
+113 silly install resolved     description: 'Node adapter for RequireJS, for loading AMD modules. Includes RequireJS optimizer',
+113 silly install resolved     version: '2.3.1',
+113 silly install resolved     homepage: 'http://github.com/jrburke/r.js',
+113 silly install resolved     author:
+113 silly install resolved      { name: 'James Burke',
+113 silly install resolved        email: 'jrburke@gmail.com',
+113 silly install resolved        url: 'http://github.com/jrburke' },
+113 silly install resolved     license: 'MIT',
+113 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/jrburke/r.js.git' },
+113 silly install resolved     main: './bin/r.js',
+113 silly install resolved     bin: { 'r.js': './bin/r.js', r_js: './bin/r.js' },
+113 silly install resolved     engines: { node: '>=0.4.0' },
+113 silly install resolved     bugs: { url: 'https://github.com/jrburke/r.js/issues' },
+113 silly install resolved     _id: 'requirejs@2.3.1',
+113 silly install resolved     scripts: {},
+113 silly install resolved     _shasum: '11d5a0225e47a634ac7348dba2a07fdebb1ac676',
+113 silly install resolved     _from: 'requirejs@>=2.1.0 <3.0.0',
+113 silly install resolved     _npmVersion: '3.9.3',
+113 silly install resolved     _nodeVersion: '6.2.1',
+113 silly install resolved     _npmUser: { name: 'jrburke', email: 'jrburke@gmail.com' },
+113 silly install resolved     dist:
+113 silly install resolved      { shasum: '11d5a0225e47a634ac7348dba2a07fdebb1ac676',
+113 silly install resolved        tarball: 'https://registry.npmjs.org/requirejs/-/requirejs-2.3.1.tgz' },
+113 silly install resolved     maintainers: [ [Object] ],
+113 silly install resolved     _npmOperationalInternal:
+113 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+113 silly install resolved        tmp: 'tmp/requirejs-2.3.1.tgz_1473095617017_0.07488836301490664' },
+113 silly install resolved     directories: {},
+113 silly install resolved     _resolved: 'https://registry.npmjs.org/requirejs/-/requirejs-2.3.1.tgz',
+113 silly install resolved     readme: 'ERROR: No README data found!' } ]
+114 info install requirejs@2.3.1 into J:\XAMPP_2\htdocs\sandbox\magento\bgts_theme\node_modules\grunt-contrib-requirejs
+115 info installOne requirejs@2.3.1
+116 verbose installOne of requirejs to J:\XAMPP_2\htdocs\sandbox\magento\bgts_theme\node_modules\grunt-contrib-requirejs not in flight; installing
+117 verbose correctMkdir C:\Users\Jaronloch\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+118 verbose lock using C:\Users\Jaronloch\AppData\Roaming\npm-cache\_locks\requirejs-b91eb1dd70816699.lock for J:\XAMPP_2\htdocs\sandbox\magento\bgts_theme\node_modules\grunt-contrib-requirejs\node_modules\requirejs
+119 silly install write writing requirejs 2.3.1 to J:\XAMPP_2\htdocs\sandbox\magento\bgts_theme\node_modules\grunt-contrib-requirejs\node_modules\requirejs
+120 verbose unbuild node_modules\grunt-contrib-requirejs\node_modules\requirejs
+121 silly gentlyRm J:\XAMPP_2\htdocs\sandbox\magento\bgts_theme\node_modules\grunt-contrib-requirejs\node_modules\requirejs is being purged from base J:\XAMPP_2\htdocs\sandbox\magento\bgts_theme
+122 verbose gentlyRm don't care about contents; nuking J:\XAMPP_2\htdocs\sandbox\magento\bgts_theme\node_modules\grunt-contrib-requirejs\node_modules\requirejs
+123 verbose tar unpack C:\Users\Jaronloch\AppData\Roaming\npm-cache\requirejs\2.3.1\package.tgz
+124 verbose tar unpacking to J:\XAMPP_2\htdocs\sandbox\magento\bgts_theme\node_modules\grunt-contrib-requirejs\node_modules\requirejs
+125 silly gentlyRm J:\XAMPP_2\htdocs\sandbox\magento\bgts_theme\node_modules\grunt-contrib-requirejs\node_modules\requirejs is being purged
+126 verbose gentlyRm don't care about contents; nuking J:\XAMPP_2\htdocs\sandbox\magento\bgts_theme\node_modules\grunt-contrib-requirejs\node_modules\requirejs
+127 silly gunzTarPerm modes [ '777', '666' ]
+128 silly gunzTarPerm extractEntry package.json
+129 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+130 silly gunzTarPerm extractEntry README.md
+131 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+132 silly gunzTarPerm extractEntry require.js
+133 silly gunzTarPerm modified mode [ 'require.js', 420, 438 ]
+134 silly gunzTarPerm extractEntry bin/r.js
+135 silly gunzTarPerm modified mode [ 'bin/r.js', 420, 438 ]
+136 verbose write writing to J:\XAMPP_2\htdocs\sandbox\magento\bgts_theme\node_modules\grunt-contrib-requirejs\node_modules\requirejs\package.json
+137 info preinstall requirejs@2.3.1
+138 verbose readDependencies loading dependencies from J:\XAMPP_2\htdocs\sandbox\magento\bgts_theme\node_modules\grunt-contrib-requirejs\node_modules\requirejs\package.json
+139 verbose readDependencies loading dependencies from J:\XAMPP_2\htdocs\sandbox\magento\bgts_theme\node_modules\grunt-contrib-requirejs\node_modules\requirejs\package.json
+140 silly install resolved []
+141 verbose about to build J:\XAMPP_2\htdocs\sandbox\magento\bgts_theme\node_modules\grunt-contrib-requirejs\node_modules\requirejs
+142 info build J:\XAMPP_2\htdocs\sandbox\magento\bgts_theme\node_modules\grunt-contrib-requirejs\node_modules\requirejs
+143 info linkStuff requirejs@2.3.1
+144 silly linkStuff requirejs@2.3.1 has J:\XAMPP_2\htdocs\sandbox\magento\bgts_theme\node_modules\grunt-contrib-requirejs\node_modules as its parent node_modules
+145 verbose linkBins requirejs@2.3.1
+146 verbose link bins [ { 'r.js': './bin/r.js', r_js: './bin/r.js' },
+146 verbose link bins   'J:\\XAMPP_2\\htdocs\\sandbox\\magento\\bgts_theme\\node_modules\\grunt-contrib-requirejs\\node_modules\\.bin',
+146 verbose link bins   false ]
+147 verbose linkMans requirejs@2.3.1
+148 verbose rebuildBundles requirejs@2.3.1
+149 info install requirejs@2.3.1
+150 info postinstall requirejs@2.3.1
+151 verbose unlock done using C:\Users\Jaronloch\AppData\Roaming\npm-cache\_locks\requirejs-b91eb1dd70816699.lock for J:\XAMPP_2\htdocs\sandbox\magento\bgts_theme\node_modules\grunt-contrib-requirejs\node_modules\requirejs
+152 verbose about to build J:\XAMPP_2\htdocs\sandbox\magento\bgts_theme\node_modules\grunt-contrib-requirejs
+153 info build J:\XAMPP_2\htdocs\sandbox\magento\bgts_theme\node_modules\grunt-contrib-requirejs
+154 info linkStuff grunt-contrib-requirejs@1.0.0
+155 silly linkStuff grunt-contrib-requirejs@1.0.0 has J:\XAMPP_2\htdocs\sandbox\magento\bgts_theme\node_modules as its parent node_modules
+156 verbose linkBins grunt-contrib-requirejs@1.0.0
+157 verbose linkMans grunt-contrib-requirejs@1.0.0
+158 verbose rebuildBundles grunt-contrib-requirejs@1.0.0
+159 verbose rebuildBundles [ '.bin', 'requirejs' ]
+160 info install grunt-contrib-requirejs@1.0.0
+161 info postinstall grunt-contrib-requirejs@1.0.0
+162 verbose unlock done using C:\Users\Jaronloch\AppData\Roaming\npm-cache\_locks\grunt-contrib-requirejs-42b88262c57bcd4f.lock for J:\XAMPP_2\htdocs\sandbox\magento\bgts_theme\node_modules\grunt-contrib-requirejs
+163 verbose validateInstall loading J:\XAMPP_2\htdocs\sandbox\magento\bgts_theme\package.json for validation
+164 verbose stack Error: The package grunt@1.0.1 does not satisfy its siblings' peerDependencies requirements!
+164 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:125:32
+164 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:268:7
+164 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:142:5
+164 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+164 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+164 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+164 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+164 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+164 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+164 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+165 verbose cwd J:\XAMPP_2\htdocs\sandbox\magento\bgts_theme
+166 error Windows_NT 6.3.9600
+167 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "grunt-contrib-requirejs" "--save-dev"
+168 error node v4.5.0
+169 error npm  v2.15.9
+170 error code EPEERINVALID
+171 error peerinvalid The package grunt@1.0.1 does not satisfy its siblings' peerDependencies requirements!
+171 error peerinvalid Peer grunt-include-js@1.0.3 wants grunt@~0.4.4
+171 error peerinvalid Peer grunt-exec@1.0.0 wants grunt@>=0.4
+171 error peerinvalid Peer grunt-sass@1.2.1 wants grunt@>=0.4.0
+172 verbose exit [ 1, true ]
