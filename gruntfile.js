@@ -5,8 +5,8 @@
 **/
 module.exports = function(grunt){
 	var themename	= "bgts_theme";
-	var projectdir='J:\\XAMPP_2\\htdocs\\sandbox\\magento\\1';
-	var themedir='J:\\XAMPP_2\\htdocs\\sandbox\\magento\\' + themename;
+	var projectdir='C:\\xampp_php7\\htdocs\\sandbox\\magento\\1';
+	var themedir='C:\\xampp_php7\\htdocs\\sandbox\\magento\\' + themename;
 	grunt.initConfig({
 		pkg:grunt.file.readJSON("package.json"),
 		uglify: {
@@ -57,7 +57,7 @@ module.exports = function(grunt){
 				}
 			},
 			css: {
-				files: ["src/skin/**/*.scss","src/skin/**/*.css"],
+				files: ["src/skin/**/*.scss","src/skin/**/*.css","src/skin/**/*.*"],
 				tasks: ["sass:build","exec:skin"],
 				options: {
 					livereload: true
