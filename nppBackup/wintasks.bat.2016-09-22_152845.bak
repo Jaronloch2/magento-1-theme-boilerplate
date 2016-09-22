@@ -8,11 +8,11 @@ SET removealllinks=true
 IF "%what%"=="skin" (
 SET link=%projectdir%\skin\frontend\default\bgts_theme
 SET dir=%themedir%\skin\frontend\default\bgts_theme
-xcopy /E /Y /d /EXCLUDE:exclude.txt %themedir%\src\skin\required %themedir%\skin
+xcopy /E /Y /d %themedir%\src\skin\required %themedir%\skin
 ) ELSE IF "%what%"=="js" (
 SET link=%projectdir%\js\bgts_theme
 SET dir=%themedir%\js\bgts_theme
-xcopy /E /Y /d /EXCLUDE:exclude.txt %themedir%\src\js\required %themedir%\js
+xcopy /E /Y /d %themedir%\src\js\required %themedir%\js
 ) ELSE (
 SET link=%projectdir%\app\design\frontend\default\bgts_theme
 SET dir=%themedir%\app\design\frontend\default\bgts_theme

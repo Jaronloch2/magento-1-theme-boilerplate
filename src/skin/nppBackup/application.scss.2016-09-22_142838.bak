@@ -7,4 +7,4 @@
 body {margin:0;padding:0;color:#555;}
 .nopadding {padding: 0 !important;margin: 0 !important;}
 .border-red{border:1px solid red;}
-.margint15{margin:15px 0 0 0 !important;}
+.margintb15{margin:15px 0 0 0 !important;}
