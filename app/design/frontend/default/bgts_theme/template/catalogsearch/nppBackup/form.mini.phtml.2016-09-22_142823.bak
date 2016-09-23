@@ -1,0 +1,11 @@
+<?php $catalogSearchHelper =  $this->helper('catalogsearch');?>
+<form ng-module="bgtsforms" ng-controller="SearchController as searchCtrl" ng-submit="(searchForm.$valid && (searchCtrl.query!='')) && searchCtrl.search('<?php echo $catalogSearchHelper->getResultUrl() ?>')" data-toggle="validator" method="POST" id="search_mini_form" name="searchForm" role="form" novalidate>
+    <div class="form-group">
+		<p class="input-group">
+			<input ng-model="searchCtrl.query" ng-class="{'border-red':searchForm.query.$invalid && searchForm.$submitted}" id="search" type="text" name="query" placeholder="Search Store..." class="form-control input-sm margintb15" maxlength="<?php echo $catalogSearchHelper->getMaxQueryLength();?>" required/>
+			<span class="input-group-btn">
+				<button type="submit" title="<?php echo Mage::helper('core')->quoteEscape($this->__('Search')) ?>" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-search"></span></button>
+			</span>
+		</p>
+    </div>
+</form>

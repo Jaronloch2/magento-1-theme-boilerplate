@@ -1,0 +1,9 @@
+// @import "required/frontend/default/bgts_theme/css/oauth-simple.scss";
+// @import "required/frontend/default/bgts_theme/css/styles.scss";
+// @import "required/frontend/default/bgts_theme/css/styles-ie.scss";
+@import "required/frontend/default/bgts_theme/css/bootstrap.min.scss";
+@import "required/frontend/default/bgts_theme/css/bootstrap-theme.min.scss";
+
+body {margin:0;padding:0;color:#555;}
+.nopadding {padding: 0 !important;margin: 0 !important;}
+.border-red{border:1px solid red;}

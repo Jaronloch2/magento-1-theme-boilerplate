@@ -1,6 +1,6 @@
 <?php $catalogSearchHelper =  $this->helper('catalogsearch');?>
 <form ng-module="bgtsforms" ng-controller="SearchController as searchCtrl" ng-submit="(searchForm.$valid && (searchCtrl.query!='')) && searchCtrl.search('<?php echo $catalogSearchHelper->getResultUrl() ?>')" data-toggle="validator" method="POST" id="search_mini_form" name="searchForm" role="form" novalidate>
-    <div class="form-group">
+    <div class="form-group margint15">
 		<p class="input-group">
 			<input ng-model="searchCtrl.query" ng-class="{'border-red':searchForm.query.$invalid && searchForm.$submitted}" id="search" type="text" name="query" placeholder="Search Store..." class="form-control input-sm" maxlength="<?php echo $catalogSearchHelper->getMaxQueryLength();?>" required/>
 			<span class="input-group-btn">

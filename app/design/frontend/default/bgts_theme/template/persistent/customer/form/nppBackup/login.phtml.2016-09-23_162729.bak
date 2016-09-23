@@ -1,0 +1,64 @@
+<div ng-module="bgtsforms" ng-controller="LoginController as loginCtrl" class="container col-md-12">
+	<div class="panel panel-default"> 
+		<div class="panel-heading lead"><?php echo $this->__('Login or Create an Account') ?></div>
+		<div class="panel-body">
+			<?php echo $this->getMessagesBlock()->toHtml() ?>
+			<form ng-submit="loginForm.$valid && loginCtrl.login() " data-toggle="validator" method="POST" name="loginForm" role="form" novalidate>
+				<?php echo $this->getBlockHtml('formkey'); ?>
+				<div class="col2-set">
+					<div class="col-md-12">
+						<div class="form-group">
+							<strong><?php echo $this->__('New Customers') ?></strong>
+							<p><?php echo $this->__('By creating an account with our store, you will be able to move through the checkout process faster, store multiple shipping addresses, view and track your orders in your account and more.') ?></p>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="form-group">
+							<strong><?php echo $this->__('Registered Customers') ?></strong>
+							<p><?php echo $this->__('If you have an account with us, please log in.') ?></p>
+							<div class="form-list">
+								<div class="form-group">
+									<label for="email" class="required"><em class="text-danger">*</em> <?php echo $this->__('Email Address') ?></label>
+									<div class="input-box">
+										<input ng-model="loginCtrl.username" type="text" name="login[username]" value="<?php echo $this->escapeHtml($this->getUsername()) ?>" id="email" class="form-control input-text required-entry validate-email" title="<?php echo Mage::helper('core')->quoteEscape($this->__('Email Address')) ?>" required/>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="pass" class="required"><em class="text-danger">*</em> <?php echo $this->__('Password') ?></label>
+									<div class="input-box">
+										<input ng-model="loginCtrl.password" type="password" name="login[password]" class="form-control input-text required-entry validate-password" id="pass" title="<?php echo Mage::helper('core')->quoteEscape($this->__('Password')) ?>" required/>
+									</div>
+								</div>
+								<div class="col-md-12">
+									<?php echo $this->getChildHtml('form.additional.info'); ?>
+								</div>
+								<div class="col-md-12">
+									<?php echo $this->getChildHtml('persistent.remember.me'); ?>
+								</div>
+							</div>
+							<?php echo $this->getChildHtml('persistent.remember.me.tooltip'); ?>
+							<p class="required"><?php echo $this->__('* Required Fields') ?></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-12">
+					<button type="submit" class="btn btn-primary button form-control" title="<?php echo Mage::helper('core')->quoteEscape($this->__('Login')) ?>" name="send" id="send2">
+						<?php echo $this->__('Login') ?>
+					</button>
+				</div>
+				<?php if (Mage::helper('checkout')->isContextCheckout()): ?>
+					<input name="context" type="hidden" value="checkout" />
+				<?php endif; ?>
+			</form>
+		</div>
+		<div class="panel-footer text-right">
+			<a href="<?php echo $this->getForgotPasswordUrl() ?>" class="text-info">
+				<?php echo $this->__('Forgot Your Password?') ?>
+			</a> | 
+			<a title="<?php echo Mage::helper('core')->quoteEscape($this->__('Create an Account')) ?>" href="<?php echo Mage::helper('persistent')->getCreateAccountUrl($this->getCreateAccountUrl()) ?>">
+				<?php echo $this->__('Create an Account') ?>
+			</a> | 
+			Login Modal v1
+		</div>
+	</div>
+</div>
